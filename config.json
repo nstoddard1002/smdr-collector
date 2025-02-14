@@ -1,0 +1,22 @@
+{
+    "network": {
+        "SYS_IP_ADDRESS": "0.0.0.0",
+        "PBX_IP_ADDRESS": "172.16.11.11",
+        "PORT_NUM": 5050,
+        "PBX_MODEL": "avaya_ipo"
+    },
+    "output_file": {
+        "OUTPUT_FILE_TITLE": "smdr_records",
+        "OUTPUT_FILE_EXT": "csv",
+        "OUTPUT_FILE_DIR": "call_logs/"
+    },
+    "log_file": {
+        "LOG_FILE_TITLE": "smdr_logs",
+        "LOG_FILE_EXT": "txt",
+        "LOG_FILE_DIR": "log_files/"
+    },
+    "smdr": {
+        "SMDR_LOG_ROLLOVER": 1,
+        "SMDR_MAX_SIZE_MBS": 100
+    }
+}
