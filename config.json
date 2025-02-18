@@ -1,7 +1,7 @@
 {
     "network": {
         "SYS_IP_ADDRESS": "0.0.0.0",
-        "PBX_IP_ADDRESS": "172.16.11.11",
+        "PBX_IP_ADDRESS": "192.168.42.1",
         "PORT_NUM": 5050,
         "PBX_MODEL": "avaya_ipo"
     },
